@@ -1,0 +1,76 @@
+.drawing {
+    display: grid;
+    max-width: 550px;
+    min-height: 550px;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    background-image: linear-gradient(45deg, rgb(158, 83, 124), rgb(75, 129, 177));
+}
+
+.pixel {
+    border: 1px dashed rgba(39, 28, 34, 0.253);
+    background-color: white;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+    color: azure;
+    height: 100%;
+    min-width: 920px;
+    background-color: #1f1f1f;
+}
+
+button {
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    border-radius: 30px;
+    border:solid 2px rgb(134, 131, 134);
+    background-color:white;
+    color: black;
+    height: 40px;
+    margin: 20px 10%;
+}
+
+select {
+    font-family: 'Comic Neue', cursive;
+    border-radius: 30px;
+    border:solid 2px rgb(134, 131, 134);
+    height: 40px;
+    margin: 0 10% 10px 10%;
+}
+
+label {
+    font-size: 20px;
+    margin: 0 10%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #2d2d2dc4;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 32% 60%;
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(158, 83, 124), rgb(75, 129, 177));
+    background-clip: text;
+    color: transparent;
+}
+a{
+    margin: 10px auto;
+    font-size: 20px;
+    color: thistle;
+}
